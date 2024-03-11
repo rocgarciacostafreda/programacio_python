@@ -1,0 +1,12 @@
+#RO_page_147_ex14.1
+
+articles = [454, 785, 1000, 2347]
+diners = 1000
+articles_comprar = 0
+
+for n in range(0,4):
+    if n < diners or n == diners:
+        f = diners//articles[n]
+        print("Es poden comprar ", f, "articles")
+    else:
+        print("No es pot comprar")

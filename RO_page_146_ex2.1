@@ -1,0 +1,23 @@
+#RO_page_146_ex2
+
+n = int(input("n = "))
+
+x = 0
+a = 0
+b = 0
+c = 0
+while x < n:
+    p = float(input("p = "))
+    x = x + 1
+    if p < 10:
+        print("Menor de 10 kg")
+        a = a + 1
+    elif p >= 10 and p <= 20:
+        print("Entre 10 i 20 kg")
+        b = b + 1
+    elif p > 20:
+        print("Major que 2 kg")
+        c = c + 1
+print("Paquets menors de 10 kg = ", a)
+print("Paquets entre 10 i 20 kg = ", b)
+print("Paquets majors de 20 kg = ", c)
